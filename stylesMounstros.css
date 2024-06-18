@@ -1,0 +1,87 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f3f5a5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+}
+
+
+header {
+  background-color: #073c70; 
+  width: 100%;
+  padding: 10px 0;
+}
+
+.contenedor {
+  max-width: 900px; 
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  color: #fff; 
+}
+
+.contenedor-nav {
+  display: flex;
+}
+
+.item-nav {
+  margin-right: 20px;
+}
+
+.item-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.item-nav a:hover {
+  color: #ffc107; 
+}
+
+
+.grid-monstruos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  width: 80%; 
+  max-width: 900px; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tarjeta-monstruo {
+  background-color: beige; 
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.tarjeta-monstruo h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.tarjeta-monstruo p {
+  margin: 10px 0;
+}
+
+#buscarMonstruo{
+  padding: 5%;
+  margin-top: 13%;
+}
